@@ -1,0 +1,24 @@
+{
+    "name": "simplepay-ai/api-client-php",
+    "description": "SimplePay API Client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimplePay\\ApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SimplePay"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "cuyz/valinor": "^1.14"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.9",
+        "guzzlehttp/psr7": "^2.7"
+    }
+}
