@@ -1,5 +1,5 @@
 {
-    "name": "simplepay-ai/api-client-php",
+    "name": "simplepay-ai/api-client",
     "description": "SimplePay API Client",
     "type": "library",
     "license": "MIT",
