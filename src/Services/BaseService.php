@@ -33,6 +33,15 @@ abstract class BaseService
     )
     {
         $this->mapper = (new MapperBuilder())
+            ->supportDateFormats(
+                DATE_RFC3339,
+                DATE_RFC3339_EXTENDED,
+                'Y-m-d\TH:i:s.uP',
+                'Y-m-d\TH:i:s.uuP'
+            )
+            ->enableFlexibleCasting()
+            ->allowSuperfluousKeys()
+            ->allowPermissiveTypes()
             ->mapper();
 
         $this->arrayNormalizer = (new MapperBuilder())
