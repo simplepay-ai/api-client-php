@@ -7,6 +7,7 @@ namespace SimplePay\ApiClient;
 use CuyZ\Valinor\Mapper\Source\Source;
 use CuyZ\Valinor\Mapper\TreeMapper;
 use CuyZ\Valinor\MapperBuilder;
+use Exception;
 use Psr\Http\Message\ServerRequestInterface;
 use SimplePay\ApiClient\Models\WebhookEvent;
 
