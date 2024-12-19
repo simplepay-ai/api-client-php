@@ -48,7 +48,7 @@ final class InvoiceCreateRequest
 
     /**
      * Products
-     * 
+     *
      * @var ?InvoiceCreateProduct[]
      */
     public ?array $products = null;

@@ -68,7 +68,7 @@ final class Invoice
 
     /**
      * Invoice products
-     * 
+     *
      * @var InvoiceProduct[]
      */
     public array $products;

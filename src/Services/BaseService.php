@@ -30,8 +30,7 @@ abstract class BaseService
         private StreamFactoryInterface $streamFactory,
         private string $apiBase,
         private ?string $apiKey = null
-    )
-    {
+    ) {
         $this->mapper = (new MapperBuilder())
             ->supportDateFormats(
                 DATE_RFC3339,

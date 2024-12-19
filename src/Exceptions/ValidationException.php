@@ -10,7 +10,6 @@ final class ValidationException extends Exception
 {
     public function __construct(
         public mixed $errors
-    )
-    {
+    ) {
     }
 }

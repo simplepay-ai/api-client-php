@@ -20,5 +20,4 @@ final class InvoiceListErrorsResponse
      * 'ascii' | 'max'
      */
     public ?string $clientId = null;
-};
-
+}

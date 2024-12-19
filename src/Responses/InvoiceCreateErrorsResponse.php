@@ -45,4 +45,4 @@ final class InvoiceCreateErrorsResponse
      * 'required_without' | 'min' | 'max' | 'invalid'
      */
     public ?string $products = null;
-};
+}

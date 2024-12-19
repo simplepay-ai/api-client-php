@@ -33,7 +33,7 @@ final class Cryptocurrency
 
     /**
      * List of blockchains in which cryptocurrency may be accepted
-     * 
+     *
      * @var ?Network[]
      */
     public ?array $networks = null;
@@ -46,7 +46,7 @@ final class Cryptocurrency
      * Value is price for 1 coin
      *
      * @see https://en.wikipedia.org/wiki/ISO_4217
-     * 
+     *
      * @var ?array<string, float>
      */
     public ?array $rates = null;
